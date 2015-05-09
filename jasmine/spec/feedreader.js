@@ -73,7 +73,7 @@ $(function() {
             $('menu-icon-link').click();
             expect($('body').hasClass('menu-hidden')).not.toBe(true);
             //expectation to hide on next click
-            $('menu-icon-link').click();
+            $('.menu-icon-link').click();
             expect($('body').hasClass('menu-hidden')).toBe(true);
         });
 
