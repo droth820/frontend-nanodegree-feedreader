@@ -70,10 +70,10 @@ $(function() {
         * clicked and does it hide when clicked again.
         */
         it('Menu shows when clicked then hidden when clicked a second time', function() {
-            $('menu-icon-link').click();
+            $('.menu-icon-link').onClick();
             expect($('body').hasClass('menu-hidden')).not.toBe(true);
             //expectation to hide on next click
-            $('.menu-icon-link').click();
+            $('.menu-icon-link').onClick();
             expect($('body').hasClass('menu-hidden')).toBe(true);
         });
 
