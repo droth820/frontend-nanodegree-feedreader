@@ -45,7 +45,7 @@ $(function() {
          */
          it('should have a defined name', function() {
             for (var j = 0; j < allFeeds.length; j++) {
-                expect(allfields[j].name).toBeDefined();
+                expect(allFeeds[j].name).toBeDefined();
                 expect(allFeeds[j].name).not.toBe(0);
             }
          });
