@@ -99,7 +99,7 @@ $(function() {
 
          //Test to check if there is at least a single .entry element within the .feed container.
          it('Async load complete successfully', function(done) {
-            expect($('feed, entry-link').length).toBeGreaterThan(0);
+            expect($('.feed .entry-link').length).toBeGreaterThan(0);
             done();
          });
     });
